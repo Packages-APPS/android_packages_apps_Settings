@@ -169,5 +169,19 @@
             android:key="notification_lights"
             lineage:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
             lineage:replacesKey="notification_pulse" />
+
+        <!-- Reticker -->
+        <com.lineage.settings.preference.SystemSettingSwitchPreference
+            android:key="reticker_status"
+            android:icon="@drawable/ic_message_fast"
+            android:title="@string/reticker_title"
+            android:summary="@string/reticker_summary" />
+
+        <com.lineage.settings.preference.SystemSettingSwitchPreference
+            android:key="reticker_colored"
+            android:icon="@drawable/ic_message_fast"
+            android:title="@string/reticker_colored_title"
+            android:summary="@string/reticker_colored_summary"
+            android:dependency="reticker_status" />
     </PreferenceCategory>
 </PreferenceScreen>
