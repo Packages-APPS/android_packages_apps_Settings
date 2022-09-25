@@ -13667,4 +13667,8 @@
     <!-- Arcane Idle Manager -->
     <string name="arcane_idle_manager_title">Idle Manager</string>
     <string name="arcane_idle_manager_summary">Stop all non-essential background processes when the device is idle</string>
+
+    <!-- Force background freezer -->
+    <string name="force_background_freezer_title">Background tasks freezer</string>
+    <string name="force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
 </resources>
