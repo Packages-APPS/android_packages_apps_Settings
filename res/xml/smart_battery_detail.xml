@@ -49,6 +49,12 @@
         android:selectable="false"
         settings:searchable="false"/>
 
+     <com.lineage.settings.preference.SystemSettingSwitchPreference
+        android:key="strict_standby_policy"
+        android:title="@string/strict_standby_policy_title"
+        android:summary="@string/strict_standby_policy_summary"
+        android:defaultValue="false"/>
+
     <com.lineage.settings.preference.SystemSettingSwitchPreference
         android:key="force_background_freezer"
         android:title="@string/force_background_freezer_title"
