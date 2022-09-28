@@ -468,4 +468,7 @@
     <dimen name="chartview_trapezoid_radius">5dp</dimen>
     <dimen name="chartview_trapezoid_margin_start">1dp</dimen>
     <dimen name="chartview_trapezoid_margin_bottom">2dp</dimen>
+
+    <!-- avatar_length + avatar_margin_top -->
+    <dimen name="homepage_title_margin_top">104dp</dimen>
 </resources>
