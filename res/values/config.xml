@@ -22,6 +22,10 @@
     <string name="additional_system_update" translatable="false"></string>
     <string name="additional_system_update_menu" translatable="false"></string>
 
+    <!-- xdUI Base Layout -->
+    <color name="homepage_blaze_background">#536dfe</color>
+    <color name="xd_background1">@android:color/system_neutral1_50</color>
+
     <!-- TODO: This is purely enforced by the interface, and does not affect what
          strings may be inserted into the actual content provider.
          With the addition of shortcuts, it seems more likely that users will
