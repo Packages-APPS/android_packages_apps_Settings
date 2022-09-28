@@ -450,6 +450,17 @@
     <!-- Top margin for preview view pager -->
     <dimen name="preview_size_top_margin">-12dp</dimen>
 
+    <!-- xd. Preference Card -->
+     <dimen name="xd_pref_card_radius">28dp</dimen>
+     <dimen name="xd_pref_card_radius-outer">5dp</dimen>
+     <dimen name="xd_pref_card_horizontal_padding">16dp</dimen>
+     <dimen name="xd_pref_card_horizontal_padding-negative">-16dp</dimen>
+
+     <!-- xd. Toolbar --> 
+     <dimen name="xd_toolbar_height">225dp</dimen>
+     <dimen name="xd_toolbar_expanded_title_margin_start">21dp</dimen>
+     <dimen name="xd_toolbar_expanded_title_margin_end">75dp</dimen>
+
     <!-- Battery usage chart view component -->
     <dimen name="chartview_text_padding">6dp</dimen>
     <dimen name="chartview_divider_width">1dp</dimen>
