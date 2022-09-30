@@ -25,6 +25,10 @@
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already_cm">No need, you have already enabled development settings.</string>
 
+    <!--Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
+    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar. Needs SystemUI restart or reboot</string>
+
     <!-- Advanced keyboard settings -->
     <string name="keyboard_extras_title">Extras</string>
     <string name="advanced_keyboard_settings_title">Advanced settings</string>
