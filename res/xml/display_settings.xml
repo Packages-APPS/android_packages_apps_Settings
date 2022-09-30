@@ -122,6 +122,12 @@
             settings:keywords="@string/keywords_auto_rotate"
             settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
 
+        <com.montion.settings.preference.SystemSettingSwitchPreference
+            android:key="disable_ripple_effect"
+            android:title="@string/disable_fingerprint_ripple_effect_title"
+            android:summary="@string/disable_fingerprint_ripple_effect_summary"
+            android:defaultValue="false" />
+
         <com.android.lineage.preference.SecureSettingSwitchPreference
             android:key="show_combined_status_bar_signal_icons"
             android:title="@string/combined_status_bar_signal_icons"
