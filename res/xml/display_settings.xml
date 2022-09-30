@@ -122,6 +122,13 @@
             settings:keywords="@string/keywords_auto_rotate"
             settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
 
+        <com.android.lineage.preference.SecureSettingSwitchPreference
+            android:key="show_combined_status_bar_signal_icons"
+            android:title="@string/combined_status_bar_signal_icons"
+            android:summary="@string/combined_status_bar_signal_icons_summary"
+            settings:controller="com.android.settings.display.CombinedSignalIconsPreferenceController"
+            android:defaultValue="true" />
+
         <org.lineageos.internal.lineageparts.LineagePartsPreference
             android:key="rotation"
             lineage:replacesKey="auto_rotate"
