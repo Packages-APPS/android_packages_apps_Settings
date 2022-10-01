@@ -13682,4 +13682,7 @@
 
     <!-- Per-app volume control -->
     <string name="app_volume">App volume</string>
+
+    <!-- MontionOS Maintainer -->
+    <string name="montion_maintainer">MontionOS Maintainer</string>
 </resources>
