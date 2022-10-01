@@ -171,13 +171,13 @@
             lineage:replacesKey="notification_pulse" />
 
         <!-- Reticker -->
-        <com.lineage.settings.preference.SystemSettingSwitchPreference
+        <com.lineage.settings.preference.GlobalSettingSwitchPreference
             android:key="reticker_status"
             android:icon="@drawable/ic_message_fast"
             android:title="@string/reticker_title"
             android:summary="@string/reticker_summary" />
 
-        <com.lineage.settings.preference.SystemSettingSwitchPreference
+        <com.lineage.settings.preference.GlobalSettingSwitchPreference
             android:key="reticker_colored"
             android:icon="@drawable/ic_message_fast"
             android:title="@string/reticker_colored_title"
