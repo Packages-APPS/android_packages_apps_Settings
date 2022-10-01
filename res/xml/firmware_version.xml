@@ -38,6 +38,15 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
+    <!-- LineageOS Maintainer  -->
+    <Preference
+        android:key="lineage_maintainer"
+        android:title="@string/lineage_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageMaintainerPreferenceController"/>
+
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"

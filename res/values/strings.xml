@@ -13678,4 +13678,7 @@
 
     <!-- Per-app volume control -->
     <string name="app_volume">App volume</string>
+
+    <!-- LineageOS Maintainer -->
+    <string name="lineage_maintainer">LineageOS Maintainer</string>
 </resources>
