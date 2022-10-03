@@ -13682,5 +13682,6 @@
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 
     <!-- LineageOS Maintainer -->
-    <string name="lineage_maintainer">LineageOS Maintainer</string>
+    <string name="lineage_maintainer">MontionOS Maintainer</string>
+    <string name="lineage_version_mod">MontionOS</string>
 </resources>
