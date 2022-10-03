@@ -186,6 +186,12 @@
         android:order="-55"
         settings:controller="com.android.settings.notification.SpatialAudioPreferenceController"/>
 
+    <com.lineage.settings.preference.SystemSettingSwitchPreference
+        android:key="app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:defaultValue="true" />
+
     <!-- Dial pad tones -->
     <SwitchPreference
         android:key="dial_pad_tones"
