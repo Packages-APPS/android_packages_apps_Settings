@@ -13687,4 +13687,7 @@
 
     <!-- MontionOS Maintainer -->
     <string name="montion_maintainer">MontionOS Maintainer</string>
+
+    <!-- MontionOS Version -->
+    <string name="montion_version">MontionOS</string>
 </resources>
