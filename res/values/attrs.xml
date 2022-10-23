@@ -159,6 +159,14 @@
         <attr name="textOff" format="reference" />
     </declare-styleable>
 
+    <!-- Interval seekbar -->
+    <declare-styleable name="IntervalSeekBar">
+        <attr name="minI" format="float" />
+        <attr name="maxI" format="float" />
+        <attr name="defaultValuePure" format="float" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
+
     <!-- For LabeledSeekBarPreference -->
     <declare-styleable name="LabeledSeekBarPreference">
         <attr name="textStart" format="reference" />
