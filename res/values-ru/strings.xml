@@ -5761,4 +5761,62 @@
     <string name="bluetooth_connect_access_dialog_content" msgid="4336436466468405850">"Устройство \"<xliff:g id="DEVICE_NAME_0">%1$s</xliff:g>\" хочет подключиться к этому телефону.\n\nЭто ваше первое подключение к устройству \"<xliff:g id="DEVICE_NAME_1">%2$s</xliff:g>\"."</string>
     <string name="bluetooth_connect_access_dialog_negative" msgid="4944672755226375059">"Не подключаться"</string>
     <string name="bluetooth_connect_access_dialog_positive" msgid="3630561675207269710">"Подключиться"</string>
+
+    <!-- reTicker -->
+    <string name="reticker_title">Новый стиль уведомлений</string>
+    <string name="reticker_summary">Замените всплывающие уведомления на переработанную, более тонкую и менее агрессивную версию</string>
+    <string name="reticker_colored_title">Использовать цвет приложений для фона</string>
+    <string name="reticker_colored_summary">Цвет фона уведомления будет заменён основным цветом приложения</string>
+
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Уровни громкости</string>
+    <string name="volume_steps_summary">Настроить уровни громкости</string>
+    <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Уровень громкости: Тональный Набор</string>
+    <string name="volume_steps_music_title">Уровень громкости: Медиа</string>
+    <string name="volume_steps_notification_title">Уровень громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
+    <string name="volume_steps_system_title">Уровень громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+    <string name="volume_steps_reset">Сброс</string>
+
+    <!-- Arcane Idle Manager -->
+    <string name="arcane_idle_manager_title">Idle Manager</string>
+    <string name="arcane_idle_manager_summary">Остановка всех несущественных фоновых процессов, когда устройство находится в режиме сна</string>
+
+    <!-- Battery - Strict standby -->
+    <string name="strict_standby_policy_title">Строгая политика режима ожидания</string>
+    <string name="strict_standby_policy_summary">При смахивании из недавних приложений произойдёт отстановка приложения с ограниченным потреблением заряда батареи и будут применены более строгие ограничения. Кроме того, все ограничения фонового режима будут введены даже при зарядке устройства</string>
+
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Игнорировать флаги безопасности в приложениях</string>
+    <string name="ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются черными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">Громкость приложения</string>
+    <string name="app_volume_title">Громкость для каждого приложения</string>
+    <string name="app_volume_summary">Показывать кнопку громкости каждого приложения в диалоговом окне громкости</string>
+
+     <!-- Ripple Effect on lockscreen -->
+    <string name="disable_fingerprint_ripple_effect_title">Эффект пульсации</string>
+    <string name="disable_fingerprint_ripple_effect_summary">Отключить эффект пульсации при разблокировке с помощью отпечатка пальца</string>
+
+    <!--Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Комбинированные значки сигнала</string>
+    <string name="combined_status_bar_signal_icons_summary">Показывать комбинированный значок для WiFi и мобильного сигнала. Требуется перезагрузка SystemUI</string>
+
+    <!-- MontionOS Maintainer -->
+    <string name="montion_maintainer">MontionOS Maintainer</string>
+
+    <!-- MontionOS Version -->
+    <string name="montion_version">MontionOS</string>
+
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Разметка плиток</string>
+    <string name="qs_tile_label_hide_title">Скрыть подпись</string>
+    <string name="qs_tile_label_hide_summary">Отображать только иконку плитки</string>
+    <string name="qs_tile_layout_title">Вертикальная разметка</string>
+    <string name="qs_tile_layout_summary">Отображать подпись под иконкой, а не рядом</string>
+    <string name="qs_columns_portrait_title">Колонки (Вертикальная ориентация)</string>
+    <string name="qs_columns_landscape_title">Колонки (Горизонтальная ориентация)</string>
 </resources>
