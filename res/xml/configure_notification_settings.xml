@@ -171,13 +171,13 @@
             lineage:replacesKey="notification_pulse" />
 
         <!-- Reticker -->
-        <com.montion.settings.preference.GlobalSettingSwitchPreference
+        <com.montion.support.preferences.GlobalSettingSwitchPreference
             android:key="reticker_status"
             android:icon="@drawable/ic_message_fast"
             android:title="@string/reticker_title"
             android:summary="@string/reticker_summary" />
 
-        <com.montion.settings.preference.GlobalSettingSwitchPreference
+        <com.montion.support.preferences.GlobalSettingSwitchPreference
             android:key="reticker_colored"
             android:icon="@drawable/ic_message_fast"
             android:title="@string/reticker_colored_title"

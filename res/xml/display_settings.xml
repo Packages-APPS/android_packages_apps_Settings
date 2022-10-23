@@ -117,19 +117,19 @@
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
 
-        <com.montion.settings.preference.SystemSettingSwitchPreference
+        <com.montion.support.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_label_hide"
             android:title="@string/qs_tile_label_hide_title"
             android:summary="@string/qs_tile_label_hide_summary"
             android:defaultValue="false" />
 
-        <com.montion.settings.preference.SystemSettingSwitchPreference
+        <com.montion.support.preferences.SystemSettingSwitchPreference
             android:key="qs_tile_vertical_layout"
             android:title="@string/qs_tile_layout_title"
             android:summary="@string/qs_tile_layout_summary"
             android:defaultValue="false" />
 
-        <com.montion.settings.preference.SystemSettingSeekBarPreference
+        <com.montion.support.preferences.SystemSettingSeekBarPreference
             android:key="qs_layout_columns"
             android:title="@string/qs_columns_portrait_title"
             android:max="5"
@@ -137,7 +137,7 @@
             settings:interval="1"
             android:defaultValue="2" />
 
-        <com.montion.settings.preference.SystemSettingSeekBarPreference
+        <com.montion.support.preferences.SystemSettingSeekBarPreference
             android:key="qs_layout_columns_landscape"
             android:title="@string/qs_columns_landscape_title"
             android:max="6"
@@ -156,13 +156,13 @@
             settings:keywords="@string/keywords_auto_rotate"
             settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
 
-        <com.montion.settings.preference.SystemSettingSwitchPreference
+        <com.montion.support.preferences.SystemSettingSwitchPreference
             android:key="disable_ripple_effect"
             android:title="@string/disable_fingerprint_ripple_effect_title"
             android:summary="@string/disable_fingerprint_ripple_effect_summary"
             android:defaultValue="false" />
 
-        <com.montion.settings.preference.SecureSettingSwitchPreference
+        <com.montion.support.preferences.SecureSettingSwitchPreference
             android:key="show_combined_status_bar_signal_icons"
             android:title="@string/combined_status_bar_signal_icons"
             android:summary="@string/combined_status_bar_signal_icons_summary"
